@@ -1,11 +1,18 @@
 html,
 body {
+  background: url("/public/background.jpg");
+  background-size: cover; 
   --bs-light-rgb: 236, 236, 236;
   box-sizing: border-box;
   height: 100%;
   padding: 0;
   margin: 0;
 }
+
+main {
+  
+}
+
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
