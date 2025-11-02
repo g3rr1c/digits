@@ -1,8 +1,9 @@
 /* Set up some CSS variables to theme the application. */
 :root {
-  --nat-navbar-bg: #000000;
+  --nat-navbar-bg: #6d6a6a;
   --nat-navbar-bg-rgb: 23, 3, 66;
   --nat-navbar-text-color: white;
+  --nat-navbar-highlight-text: rgb(184, 184, 184);
 }
 
 html,
