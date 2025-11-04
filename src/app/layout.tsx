@@ -4,6 +4,7 @@ import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '@/components/Footer';
 import NavBar from '@/components/Navbar';
+import { Container } from 'react-bootstrap';
 import Providers from './providers';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -24,7 +25,7 @@ export default function RootLayout({
       <body className={classString}>
         <Providers>
           <NavBar />
-          {children}
+          <Container>{children}</Container>
           <Footer />
         </Providers>
       </body>
