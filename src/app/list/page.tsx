@@ -4,9 +4,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 // import StuffItem from '@/components/StuffItem';
 import { loggedInProtectedPage } from '@/lib/page-protection';
 import authOptions from '@/lib/authOptions';
-import { Contact } from '@/lib/validationSchemas';
 import ContactCard from '@/components/ContactCard';
 import { prisma } from '@/lib/prisma';
+import { Contact } from '@prisma/client';
 
 /** Render a list of stuff for the logged in user. */
 const ListPage = async () => {
