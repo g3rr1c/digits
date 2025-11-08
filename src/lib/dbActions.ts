@@ -122,6 +122,17 @@ export async function createUser(credentials: { email: string; password: string 
   });
 }
 
+export async function addNote(note: { note: string, contactId: number, owner: string }) {
+  await prisma.note.create({
+    data: {
+      note: note.note,
+      contactId: note.contactId,
+      owner: note.owner,
+    },
+  });
+  redirect('/list');
+}
+
 /**
  * Changes the password of an existing user in the database.
  * @param credentials, an object with the following properties: email, password.
