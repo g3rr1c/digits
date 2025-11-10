@@ -1,4 +1,4 @@
-<img width="800px" src="/public/digitsLandingPage.png">
+<img width="800px" src="public/digitsLandingPage.png">
 
 Digits is an application that allows users to:
 
@@ -49,41 +49,41 @@ The following sections describe the major features of this template.
 ### Landing Page
 When you first bring up the application, you will see the landing page that provides a brief introduction to the capabilities of Digits:
 
-<img width="800px" src="/public/digitsLandingPage.png">
+<img width="800px" src="public/digitsLandingPage.png">
 
 ### Register
 If you do not yet have an account on the system, you can register by clicking on “Login”, then “Sign Up”:
 
-<img width="800px" src="/public/signup.png">
+<img width="800px" src="public/signup.png">
 
 ### Sign in
 Click on the Login link, then click on the Signin link to bring up the Sign In page which allows you to login:
 
-<img width="800px" src="/public/Signin.png">
+<img width="800px" src="public/Signin.png">
 
 ### User home page
 After successfully logging in, the system takes you to your home page. It is just like the landing page, but the NavBar contains links to list contact and add new contacts:
 
-<img width="800px" src="/public/loggedInHome.png">
+<img width="800px" src="public/loggedInHome.png">
 
 ### List Contacts
 Clicking on the List Contacts link brings up a page that lists all of the contacts associated with the logged in user:
 
-<img width="800px" src="/public/listContacts.png">
+<img width="800px" src="public/listContacts.png">
 
 This page also allows the user to add timestamped “notes” detailing interactions they’ve had with the Contact. For example:
 
-<img width="800px" src="/public/notes.png">
+<img width="800px" src="public/notes.png">
 
 ### Edit Contacts
 From the List Contacts page, the user can click the “Edit” link associated with any Contact to bring up a page that allows that Contact information to be edited:
 
-<img width="800px" src="/public/editContact.png">
+<img width="800px" src="public/editContact.png">
 
 ### Admin mode
 It is possible to designate one or more users as “Admins” through the settings file. When a user has the Admin role, they get access to a special NavBar link that retrieves a page listing all Contacts associated with all users:
 
-<img width="800px" src="/public/admin.png">
+<img width="800px" src="public/admin.png">
 
 
 <!--
