@@ -93,6 +93,7 @@ const EditContactForm = ({ contact }: { contact: Contact }) => {
                 <Form.Group>
                   <Form.Label>Description</Form.Label>
                   <textarea
+                    rows={5}
                     {...register('description')}
                     defaultValue={contact.description}
                     className={`form-control ${errors.description ? 'is-invalid' : ''}`}

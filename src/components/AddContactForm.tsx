@@ -104,6 +104,7 @@ const AddContactForm: React.FC = () => {
                 <Form.Group>
                   <Form.Label>Description</Form.Label>
                   <textarea
+                    rows={5}
                     {...register('description')}
                     className={`form-control ${errors.description ? 'is-invalid' : ''}`}
                   />
