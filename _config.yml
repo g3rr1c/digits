@@ -1,5 +1,5 @@
-title: digits
-description: A website for editing and viewing your contacts
+title: Digits
+description: A website for viewing and editing your current contact information.
 google_analytics:
 show_downloads: true
 theme: jekyll-theme-cayman
